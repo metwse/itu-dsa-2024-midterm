@@ -1,3 +1,35 @@
+# itu-dsa-2024-midterm
+This repository contains solutions for the ITU DSA Summer School midterm.
+
+**Note**: These implementations are not optimized for safety or performance.
+They reflect exactly what I wrote during the exam - without using a debugger
+or even test-compiling the code. I deliberately avoided risky or
+overcomplicated solutions and focused on writing the simplest, most reliable
+versions to minimize mistakes under exam pressure.
+
+
+## Folder Structure
+- `.h` files contain function declarations for each question.
+- `module_q*.c` files include implementation code for the corresponding
+  questions.
+- `q*.c` files contain test functions that verify the correctness of the
+  implementations in `module_*.c`.
+- The actual solutions are in the `module_*.c` files.
+
+## Building
+You can build and run test binaries using GNU Make.
+- Use make `run_q<question_id>` to build and run the test binary for a question.
+- Use make `run_debug_q<question_id>` to build with debug info and run it in a
+  debugger.
+
+Examples:
+```sh
+make run_q1          # Builds and runs q1
+make run_debug_q4    # Builds q4 in debug mode and runs it with gdb
+```
+
+
+# Questions
 ## Q1–2
 ```c
 typedef struct Node {
