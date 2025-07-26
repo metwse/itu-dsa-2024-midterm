@@ -8,7 +8,7 @@ typedef struct Node {
 
 ### Q1 (15 pts)
 ```c
-void add_to_list(NODE **node, char data);
+void add_to_list(NODE **list_head, char data);
 ```
 - `*node` is nullable. Initialize a `NODE` as the head if needed.
 
@@ -21,7 +21,7 @@ adjacency list representation using.
 
 #### Example:
 ```c
-node_count = 0;
+node_count = 5;
 node_labels = { 'A', 'B', 'C', 'D', 'E' };
 adj_matrix = {
     {0, 0, 0, 1, 0},
