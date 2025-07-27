@@ -86,7 +86,7 @@ Implement a `flip` function that flips the first `k` pancakes.
 Implement a `sort` function that orders the pancakes in ascending size.
 
 ## Q6 (10 pts)
-- Implement a string reversal function. Deduce its parameters.
+- Implement a recursive string reversal function. Deduce its parameters.
 - What is the time complexity of your function?
 
 ## Q7 (10 pts)
